@@ -1,0 +1,34 @@
+  .p2{
+	   
+        display: flex;
+        padding: 0px;
+        background-color: rgb(83, 196, 216);
+    }
+    
+  img{
+	  height: 300px;
+	  width: 300px;
+	  border-radius: 8px;
+  }
+  img:hover{
+	  transform: scale(1.5);
+	  transition: all 1s;
+  }
+  h3,h4{
+	  text-align: center;
+	  
+  }
+  h3:hover{
+	  color:brown;
+	    transform: scale(1.1);
+        transition: all 1s;
+  }
+  h4:hover{
+	  color: brown;
+	 transform: scale(1.1);
+	 transition: all 1s;
+  }
+  section{
+	  padding: 80px;
+	  
+  }

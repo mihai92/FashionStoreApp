@@ -1,0 +1,27 @@
+@charset "ISO-8859-1";
+body{
+	background-color:rgb(83, 196, 216);
+}
+h1{
+	font-family: cursive;
+	margin-top: 0px;
+}
+.location
+{
+	border: 2px solid black;
+	height: max-content;
+	width: max-content;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	
+}
+
+.infoLocation
+{
+	position: absolute;
+	top: 15%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}

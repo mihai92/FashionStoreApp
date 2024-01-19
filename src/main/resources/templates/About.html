@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+	<meta charset="UTF-8" />
+	<title>Fashion Store : About</title>
+	 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+	<link rel="stylesheet" href="" th:href="@{/css/Navigation.css}" />
+	<link rel="stylesheet" href="" th:href="@{/css/About.css}" />
+</head>
+<body>
+	<nav th:replace="~{Navigation::navbar()}">	
+	</nav>
+	
+	<div class="information">
+		
+		<h1>Fashion store</h1>
+		<h4>AFI Cotroceni</h4>
+		<h4>Bulevardul General Paul Teodorescu 4</h4>
+		<h4>București 061344</h4>
+		
+	</div>
+	<div class="icons">
+		<h3><i class="fa-brands fa-square-instagram" style="color: black;"></i> :@FashionStoreAFI</h3>
+		<h3><i class="fa-solid fa-phone" style="color: black;"></i> : +40 749 777 777</h3>
+		<h3> <i class="fa-solid fa-envelope" style="color: black;"></i>  : FashionStoreAFI@gmail.com</h3>
+		
+	</div>
+</body>
+</html>
